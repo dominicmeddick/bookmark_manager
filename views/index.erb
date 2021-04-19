@@ -6,6 +6,12 @@
   </head>
 
   <body>
-    <h1>Bookmark Manager<h1>
+    <h1>Bookmark Manager</h1>
+    <br>
+    <ul>
+      <% @bookmarks.each do |bookmark|%>
+        <li><%= bookmark %></li>
+      <% end %>
+    </ul>
   </body>
 </html>

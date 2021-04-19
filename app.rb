@@ -7,8 +7,12 @@ class BookmarkManager < Sinatra::Base
   end
 
   get '/' do
-    'Hello World!'
-  end 
+    erb :index
+  end
+
+  get '/index' do
+    
+  end
 
 
   run! if app_file == $0

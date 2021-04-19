@@ -1,4 +1,4 @@
-# BookMark manager
+# Bookmark manager
 ```
 As a web user
 So that keep track of my favourite websites

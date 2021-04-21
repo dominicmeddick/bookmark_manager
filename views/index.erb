@@ -1,17 +1,7 @@
-<!doctype html>
-
-<html>
-  <head>
-    <title>Bookmark Page</title>
-  </head>
-
-  <body>
-    <h1>Bookmark Manager</h1>
-    <br>
-    <ul>
-      <% @bookmarks.each do |bookmark|%>
-        <li><%= bookmark %></li>
-      <% end %>
-    </ul>
-  </body>
-</html>
+<form action="/add" method="post">
+  <input type="text" name="url" />
+  <input type="submit" value="Submit" />
+</form>
+<form action="/bookmark">
+  <input type="submit" value="View Bookmarks" id="bookmarks_button">
+</form>

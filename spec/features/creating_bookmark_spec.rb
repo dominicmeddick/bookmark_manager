@@ -7,4 +7,4 @@ feature 'Adding a new bookmark' do
 
     expect(page).to have_content 'http://www.google.com'
   end
-endgit 
+end

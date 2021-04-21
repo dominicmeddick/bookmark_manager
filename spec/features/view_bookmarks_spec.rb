@@ -6,7 +6,6 @@ feature 'Viewing bookmarks' do
     Bookmark.create(url: "hhttp://www.destroyallsoftware.com")
     Bookmark.create(url: "http://www.google.com")
 
-
     visit('/bookmark')
 
     expect(page).to have_content "http://www.makersacademy.com"

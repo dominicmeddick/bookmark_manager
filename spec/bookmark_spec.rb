@@ -19,10 +19,10 @@ describe Bookmark do
   end
   context '#create' do
     it 'creates a bookmark' do
-      Bookmark.create(url: 'http://www.youtube.com', title: 'General')
+      Bookmark.create(url: 'http://www.youtube.com', title: 'Streaming')
 
       expect(Bookmark.all.to_s).to include 'http://www.youtube.com'
-      expect(Bookmark.all.to_s).to include 'General'
+      expect(Bookmark.all.to_s).to include 'Streaming'
     end
   end
 end
